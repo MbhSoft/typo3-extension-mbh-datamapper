@@ -1,0 +1,16 @@
+{
+  "name": "mbhsoft/mbh-datamapper",
+  "type": "typo3-cms-extension",
+  "description": "",
+  "homepage": "http://www.mbh-software.de",
+  "license": ["GPL-2.0-or-later"],
+  "require": {
+    "typo3/cms-core": "^8.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "MbhSoftware\\MbhDatamapper\\": "Classes"
+    }
+  }
+}
+
